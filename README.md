@@ -26,7 +26,7 @@ XMaoCAT（人类）,ChatGPT（额度用没了）,Grok(项目顾问),Qoder(黑奴
 # 指令表
 【使用帮助】
 
-/tbhelp
+/tbhelp  或在每个指令后面加"help"  例如"/bind help"
 
 【基础功能】
 
