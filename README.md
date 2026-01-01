@@ -21,4 +21,4 @@ https://api.sys-allnet.com/swagger-ui/index.html
 
 # 开发人员列表
 
-XMaoCAT,ChatGPT,Grok,
+XMaoCAT（人类）,ChatGPT（额度用没了）,Grok(项目顾问),Qoder(黑奴),DeepSeek（吉祥物）
