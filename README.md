@@ -23,6 +23,22 @@ https://api.sys-allnet.com/swagger-ui/index.html
 
 XMaoCAT（人类）, ChatGPT（额度用没了）, Grok (项目顾问) , Qoder (黑奴) , DeepSeek（吉祥物）, Gamma (没用上，吃瓜位)
 
+# 关于Conifg
+
+您可以在Conifg.py中对本插件功能进行配置
+
+ allowed_groups: List[int] = []  # 插件允许监听的群组
+
+ session_expire_timeout: int = 60  # 修改头像等api发送请求后 等待用户上传头像的超时时间
+
+ arcade_info_groups: List[int] = [] #/info 系列机厅人数查询功能的单独权限管理，权限在allowed_groups下，用于让您在大群开启查询人数功能的同时保证其他指令不在大群被触发
+
+ arcade_info_public_token: int = 0/1 #此功能可以开启/info系列指令的权限，1=使用公共token（无需绑定），0=使用用户私有token（需绑定）
+
+# 关于公钥
+
+用户在绑定BotToken后，会在插件的执行目录生成“XM-Turbo.json” 如果 arcade_info_public_token: int = 1 则使用XM-Turbo.json中第一个人的BotToken进行/info系列指令的请求
+
 # 指令表
 【使用帮助】
 
